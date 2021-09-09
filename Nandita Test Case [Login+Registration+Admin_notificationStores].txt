@@ -1,0 +1,63 @@
+-------------------------------------------------------------------------------------------------------------
+#Retail_User_Login
+
+Validate user with correct credentials i:e Username and Password
+-Username: contains username format eg. test@gmail.com, user@yahoo.com
+-Password: Check  for below password validators:
+1. Password must cotain one lowercase letter.
+2. Password must contain one uppercase letter.
+3. Password must contain one number.
+4. Password must contain one special character [@#$%*/].
+5. Password length should be not less than 8 character length.
+
+-Confirm Password: Confirm password should match the password.
+
+Check both the fields are inputed, otherwise unauthorized user
+---------------------------------------------------------------------------------------------------------------
+#Retail_User_Registration
+
+Mandatory Fields *
+1. Personal Details
+    First Name*
+    Last name*
+    Email*
+    Telephone No.*
+
+2. Your address
+    Address 1*
+    Address 2
+    City*
+    Postal Code
+    Country
+    Region State
+
+3. Your Password
+    Password*
+    Confirm password*  (Should match the password)
+
+4. Newsletter
+    Subscribe radio Button (Yes/No)
+
+5. Privacy Policy*
+    Checkbox*
+
+6. BUTTON-CONFIRM - Only after completion of mendatory fields the user is eligible for registration.
+--------------------------------------------------------------------------------------------------------------------
+#Retail_Admin_NotificationStores
+
+Notify admin when the orders are in the following state:
+1. Processing [Orange Colour]
+2. Completed [Green Colour]
+3. Returns [Red Colour]
+
+Customer:
+Customers Online - Notify the updated information in the green box
+Prnding approval  - Notify the updated information in the red box
+
+Products:
+Out of stock - Notify the numbres of out of stock products in red box
+Review - Notify the numbres of review in red box
+
+Affiliates
+Pending approval: Notify the numbres of pending approvals in red box
+-----------------------------------------------------------------------------------------------------------------------
